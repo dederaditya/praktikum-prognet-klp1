@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/halo', function(){
     return "Hi Namaku Halo Dunia";
 });
+
+Route::get('/hi', function(){
+    return view('layouts.master');
+});
